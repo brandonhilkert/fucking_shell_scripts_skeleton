@@ -1,4 +1,4 @@
-# FuckingShellScripts
+# Fucking Shell Scripts Skeleton App
 
 The easiest, most common sense configuration management tool... because you just use fucking shell scripts.
 
@@ -22,4 +22,4 @@ The easiest, most common sense configuration management tool... because you just
     └── app-server.yml
 ```
 
-For more details on the usage of the gem, refer to the the ![github page](https://github.com/brandonhilkert/fucking_shell_scripts)
+For more details on the usage of the gem, refer to the the [github page](https://github.com/brandonhilkert/fucking_shell_scripts)
