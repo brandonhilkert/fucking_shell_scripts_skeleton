@@ -1,0 +1,9 @@
+name: new server
+security_groups:
+size: m1.medium
+image: ami-90374bf9 # Ubuntu 13.04 64-bit instance store
+availability_zone: us-east-1d
+region: us-east-1
+key_name: pd-app-server
+private_key_path: /Users/[username]/.ssh/id_rsa
+

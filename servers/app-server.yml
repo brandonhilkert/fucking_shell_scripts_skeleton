@@ -1,0 +1,13 @@
+name: app server
+security_groups: app-server
+
+files:
+  - files/keys/fake_key
+
+scripts:
+  - scripts/apt.sh
+  - scripts/git.sh
+  - scripts/ruby2.sh
+  - scripts/rubygems.sh
+  - scripts/fake_key.sh
+
