@@ -23,3 +23,12 @@ The easiest, most common sense configuration management tool... because you just
 ```
 
 For more details on the usage of the gem, refer to the the [github page](https://github.com/brandonhilkert/fucking_shell_scripts)
+
+## Development
+
+During development of a script, use vagrant:
+
+    vagrant up
+    cd /vagrant
+
+`cd /vagrant` will put you in the root folder of the project so that you can run a script such as `./scripts/git.sh`.
