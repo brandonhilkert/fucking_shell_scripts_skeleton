@@ -5,8 +5,6 @@ The easiest, most common sense configuration management tool... because you just
 ## Folder structure
 
 ```
-├── Gemfile
-├── Gemfile.lock
 ├── files
 │   └── keys
 │       └── deploy_key
@@ -29,7 +27,7 @@ For more details on the specific usage of the gem, refer to the the [github page
 Steps to get going using this skeleton app:
 
 1. git clone git@github.com:brandonhilkert/fucking_shell_scripts_skeleton.git
-2. `bundle install`
+2. `gem install fucking_shell_scripts`
 3. Update the `/scripts` folder with the scripts you need for your servers
 4. Update the `/server` folder with the yml files for your servers
 5. Ensure AWS_ACCESS_KEY and AWS_SECRET_ACCESS_KEY is an ENV variable on your system with your credentials
